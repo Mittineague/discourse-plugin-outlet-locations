@@ -40,7 +40,7 @@ register_asset "stylesheets/in-topic.scss"
 register_asset "javascripts/discourse/templates/connectors/topic-admin-menu-buttons/show-topic-admin-menu-buttons-location.hbs"
 register_asset "stylesheets/in-topic-admin-menu.scss"
 
-register_asset "javascripts/discourse/templates/components/connectors/show-topic-category/topic-category-location.hbs"
+register_asset "javascripts/discourse/templates/components/connectors/topic-category/show-topic-category-location.hbs"
 register_asset "stylesheets/in-topic-category.scss"
 
 register_asset "javascripts/discourse/templates/user/connectors/user-profile-primary/show-user-profile-primary-location.hbs"
