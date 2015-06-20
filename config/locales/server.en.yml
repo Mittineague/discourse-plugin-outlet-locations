@@ -1,0 +1,29 @@
+# discourse-plugin-outlet-locations
+
+en:
+  site_settings:
+    in_admin_active: "Show Admin plugin-outlet locations"
+    for_admin_only: "Show tab only to Admin"
+
+    in_composer_active: "Show Composer plugin-outlet locations"
+
+    in_discovery_active: "Show Discovery plugin-outlet locations"
+
+    in_history_active: "Show History plugin-outlet locations"
+
+    in_post_active: "Show Post plugin-outlet locations"
+
+    in_preferences_active: "Show Preferences plugin-outlet locations"
+
+    in_sitemap_active: "Show Content in Hamburger Menu"
+    in_sitemap_content: "Content to show in Hamburger Menu. Individual items need to be enclosed in LI tags."
+
+    in_static_active: "Show Static plugin outlet positions"
+
+    in_topic_active: "Show Topic plugin outlet positions"
+
+    in_topic_admin_menu_active: "Show Topic Admin Menu"
+
+    in_topic_category_active: "Show Topic Category plugin outlet positions"
+
+    in_user_active: "Show User profile plugin-outlet locations"

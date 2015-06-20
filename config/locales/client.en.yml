@@ -1,0 +1,11 @@
+# discourse-plugin-outlet-locations
+
+en:
+  admin:
+    site_settings:
+      plugins: "Discourse Plugin Outlet Locations"
+
+  js:
+    topic:
+      actions:
+        new_button: "Topic Admin Menu plugin outlet is here"

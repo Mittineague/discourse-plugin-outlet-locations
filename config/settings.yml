@@ -1,0 +1,56 @@
+# discourse-plugin-outlet-locations
+
+plugins:
+  in_admin_active:
+    default: false
+    client: true
+  for_admin_only:
+    default: false
+    client: true
+
+  in_composer_active:
+    default: false
+    client: true
+
+  in_discovery_active:
+    default: false
+    client: true
+
+  in_history_active:
+    default: false
+    client: true
+
+  in_post_active:
+    default: false
+    client: true
+
+  in_preferences_active:
+    default: false
+    client: true
+
+  in_sitemap_active:
+    default: false
+    client: true
+  in_sitemap_content:
+    default: ''
+    client: ''
+
+  in_static_active:
+    default: false
+    client: true
+
+  in_topic_active:
+    default: false
+    client: true
+
+  in_topic_admin_menu_active:
+    default: false
+    client: true
+
+  in_topic_category_active:
+    default: false
+    client: true
+
+  in_user_active:
+    default: false
+    client: true

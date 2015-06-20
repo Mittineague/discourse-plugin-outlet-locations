@@ -1,0 +1,15 @@
+{{#if siteSettings.in_admin_active }}
+  {{#if controller.siteSettings.for_admin_only }}
+    {{#if currentUser.admin}}
+      <a href="#" id="in-admin" class="ember-view">
+      <i class="fa fa-plug"></i>
+      Admin plugin
+      </a>
+    {{/if}}
+  {{else}}
+    <a href="#" id="in-admin" class="ember-view">
+    <i class="fa fa-plug"></i>
+    Admin plugin
+    </a>
+  {{/if}}
+{{/if}}
