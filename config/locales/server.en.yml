@@ -9,6 +9,7 @@ en:
     mitt_show_composer_fields_enabled: "Display composer.hbs location"
     mitt_show_composer_fields_below_enabled: "Display composer.hbs location"
     mitt_show_discovery_list_container_top_enabled: "Display discovery.hbs location"
+    mitt_show_discovery_below_enabled: "Display discovery.hbs location"
     mitt_show_full_page_search_category_enabled: "Display full-page-search.hbs location"
     mitt_show_header_after_home_logo_enabled: "Display header.hbs location"
     mitt_show_header_before_notifications_enabled: "Display header.hbs location"
@@ -45,7 +46,8 @@ en:
     
     mitt_show_create_account_before_password_enabled: "Display modal/create-account.hbs location"
     mitt_show_post_revisions_enabled: "Display modal/history.hbs location"
-    
+
+    mitt_show_user_activity_bottom_enabled: "Display user/activity.hbs location"
     mitt_show_user_custom_controls_enabled: "Display user/preferences.hbs location"
     mitt_show_user_custom_preferences_enabled: "Display user/preferences.hbs location"
     mitt_show_user_profile_primary_enabled: "Display user/user.hbs location"

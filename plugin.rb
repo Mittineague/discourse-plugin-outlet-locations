@@ -23,6 +23,7 @@ register_asset "javascripts/discourse/templates/connectors/composer-open/mitt-sh
 register_asset "javascripts/discourse/templates/connectors/composer-fields/mitt-show-composer-fields.hbs"
 register_asset "javascripts/discourse/templates/connectors/composer-fields-below/mitt-show-composer-fields-below.hbs"
 register_asset "javascripts/discourse/templates/connectors/discovery-list-container-top/mitt-show-discovery-list-container-top.hbs"
+register_asset "javascripts/discourse/templates/connectors/discovery-below/mitt-show-discovery-below.hbs"
 register_asset "javascripts/discourse/templates/connectors/full-page-search-category/mitt-show-full-page-search-category.hbs"
 register_asset "javascripts/discourse/templates/connectors/header-after-home-logo/mitt-show-header-after-home-logo.hbs"
 register_asset "javascripts/discourse/templates/connectors/header-before-notifications/mitt-show-header-before-notifications.hbs"
@@ -60,6 +61,7 @@ register_asset "javascripts/discourse/templates/mobile/list/connectors/topic-lis
 register_asset "javascripts/discourse/templates/modal/connectors/create-account-before-password/mitt-show-create-account-before-password.hbs"
 register_asset "javascripts/discourse/templates/modal/connectors/post-revisions/mitt-show-post-revisions.hbs"
 
+register_asset "javascripts/discourse/templates/user/connectors/user-activity-bottom/mitt-show-user-activity-bottom.hbs"
 register_asset "javascripts/discourse/templates/user/connectors/user-custom-controls/mitt-show-user-custom-controls.hbs"
 register_asset "javascripts/discourse/templates/user/connectors/user-custom-preferences/mitt-show-user-custom-preferences.hbs"
 register_asset "javascripts/discourse/templates/user/connectors/user-profile-primary/mitt-show-user-profile-primary.hbs"

@@ -26,19 +26,19 @@ The topic-list-tags "raw" plugin-outlets are used for both desktop and mobile vi
 ## Warnings
 
 If you are developing your own plugin, please note:
-The plugin.rb file **must** have both the name: and version: comments or the plugin **will break** the Admin Plugins page.  
+The plugin.rb file **must** have both the name: and version: comments or the plugin **will break** the Admin Plugins page.
 yml files are **very sensitive** to correct indentation or the **entire app will fail**, please validate your yml files.
 
-## Tips 
+## Tips
 
 If you are developing your own plugin, please note:
-Although not necessary, having Admin Settings toggles are a courtesy to others so they won't need to uninstall the plugin to deactivate it.  
+Although not necessary, having Admin Settings toggles are a courtesy to others so they won't need to uninstall the plugin to deactivate it.
 To have a link to a plugins "home" page in the Admin Plugins there must be a url: comment in the plugin.rb file.
 Giving template files the hbs extension, (and JavaScript files the es6 extension), allow Discourse to do "magic"
 
 ## Installation
 
-Clone or Unzip the plugin folders into your Discourse plugins directory. 
+Clone or Unzip the plugin folders into your Discourse plugins directory.
 
 ## Authors
 
@@ -46,10 +46,10 @@ Mittineague
 
 ## License
 
-GNU GPL v2 
+GNU GPL v2
 
-## Support 
+## Support
 
-I'm still learning so you are most likely a better coder than I am, but I frequently visit these forums and either I or others should be able to help.  
+I'm still learning so you are most likely a better coder than I am, but I frequently visit these forums and either I or others should be able to help.
 [SitePoint](http://community.sitepoint.com/)
-[Discourse Meta](https://meta.discourse.org/)  
+[Discourse Meta](https://meta.discourse.org/)

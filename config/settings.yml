@@ -23,6 +23,9 @@ mitt_outlets:
   mitt_show_discovery_list_container_top_enabled:
     default: true
     client: true
+  mitt_show_discovery_below_enabled:
+    default: true
+    client: true
   mitt_show_full_page_search_category_enabled:
     default: true
     client: true
@@ -123,7 +126,10 @@ mitt_outlets:
   mitt_show_post_revisions_enabled:
     default: true
     client: true
-  
+
+  mitt_show_user_activity_bottom_enabled:
+    default: true
+    client: true
   mitt_show_user_custom_controls_enabled:
     default: true
     client: true
