@@ -13,19 +13,19 @@ tests - Not complete, but included as a working example of [Beginner’s Guide t
 
 ## Use - _NOTE_ this plugin is intended for DEVELOPMENT USE ONLY
 
-Admin -> Settings -> Plugins - check the mitt plugin outlet locations enabled (default is disabled) **this setting is this plugin's "universal" on/off toggle** 
-Admin -> Settings -> Plugin Outlet Locations - settings for individual plugin outlets (default is enabled) 
+Admin -> Settings -> Plugins - check the mitt plugin outlet locations enabled (default is disabled) **this setting is this plugin's "universal" on/off toggle**  
+Admin -> Settings -> Plugin Outlet Locations - settings for individual plugin outlets (default is enabled)  
 Admin -> Plugins -> Plugin Outlet Locations - not used by this plugin but included as a working example of [Beginner's Guide to Creating Discourse Plugins Part 5: Admin Interfaces](https://meta.discourse.org/t/beginners-guide-to-creating-discourse-plugins-part-5-admin-interfaces/31761?u=mittineague)
 
 ## Known issues
 
-Some of the settings will cause accessabilty issues when they are enabled. In particular, much of the upper navigation can not be clicked on using a mouse. 
-Some can be reached by resizing the view-port until they are no longer "beneath". But often either CSS must be disabled or they must be navigated to by using the Tab key. 
+Some of the settings will cause accessabilty issues when they are enabled. In particular, much of the upper navigation can not be clicked on using a mouse.  
+Some can be reached by resizing the view-port until they are no longer "beneath". But often either CSS must be disabled or they must be navigated to by using the Tab key.  
 The topic-list-tags "raw" plugin-outlets are used for both desktop and mobile view. I have not as yet been able to determine how to get the Suggested Topics in mobile view to be recognized as being in mobile view.
 
 ## Warnings
 
-If you are developing your own plugin, please note:
+If you are developing your own plugin, please note:  
 The plugin.rb file **must** have both the name: and version: comments or the plugin **will break** the Admin Plugins page.  
 yml files are **very sensitive** to correct indentation or the **entire app will fail**, please validate your yml files.
 
