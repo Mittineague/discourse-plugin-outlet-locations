@@ -1,0 +1,15 @@
+<p>This page has nothing to do with this plugin for now.<br>
+Eventually I hope to move this plugin's settings here.</p>
+<p>At present it's only here to provide a working example of <br>
+<a href="https://meta.discourse.org/t/beginners-guide-to-creating-discourse-plugins-part-5-admin-interfaces/31761">Beginner's Guide to Creating Discourse Plugins Part 5: Admin Interfaces</a></p>
+
+<div class='buttons'>
+  {{d-button label="plugin_outlet_locations.show" action="showTentacle" icon="eye" id="show-tentacle"}}
+  {{d-button label="plugin_outlet_locations.hide" action="hideTentacle" icon="eye" id="hide-tentacle"}}
+</div>
+
+{{#if tentacleVisible}}
+  <div class='tentacle'>
+    <img src="http://eviltrout.com/images/tentacle.gif">
+  </div>
+{{/if}}

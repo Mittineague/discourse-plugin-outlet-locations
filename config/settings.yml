@@ -1,56 +1,138 @@
-# discourse-plugin-outlet-locations
-
 plugins:
-  in_admin_active:
-    default: false
-    client: true
-  for_admin_only:
+  mitt_plugin_outlet_locations_enabled:
     default: false
     client: true
 
-  in_composer_active:
-    default: false
+mitt_outlets:
+  mitt_show_admin_menu_enabled:
+    default: true
     client: true
-
-  in_discovery_active:
-    default: false
+  mitt_show_admin_dashboard_top_enabled:
+    default: true
     client: true
-
-  in_history_active:
-    default: false
+  
+  mitt_show_composer_open_enabled:
+    default: true
     client: true
-
-  in_post_active:
-    default: false
+  mitt_show_composer_fields_enabled:
+    default: true
     client: true
-
-  in_preferences_active:
-    default: false
+  mitt_show_composer_fields_below_enabled:
+    default: true
     client: true
-
-  in_sitemap_active:
-    default: false
+  mitt_show_discovery_list_container_top_enabled:
+    default: true
     client: true
-  in_sitemap_content:
-    default: ''
-    client: ''
-
-  in_static_active:
-    default: false
+  mitt_show_full_page_search_category_enabled:
+    default: true
     client: true
-
-  in_topic_active:
-    default: false
+  mitt_show_header_after_home_logo_enabled:
+    default: true
     client: true
-
-  in_topic_admin_menu_active:
-    default: false
+  mitt_show_header_before_notifications_enabled:
+    default: true
     client: true
-
-  in_topic_category_active:
-    default: false
+  mitt_show_header_notifications_enabled:
+    default: true
     client: true
-
-  in_user_active:
-    default: false
+  mitt_show_header_before_dropdowns_enabled:
+    default: true
+    client: true
+  mitt_show_header_under_content_enabled:
+    default: true
+    client: true
+#  mitt_show_poster_avatar_bottom_enabled:
+#    default: true
+#    client: true
+#  mitt_show_poster_name_right_enabled:
+#    default: true
+#    client: true
+#  mitt_show_post_after_cooked_enabled:
+#    default: true
+#    client: true
+#  mitt_show_topic_after_cooked_enabled:
+#    default: true
+#    client: true
+#  mitt_show_post_bottom_enabled:
+#    default: true
+#    client: true
+  mitt_show_above_static_enabled:
+    default: true
+    client: true
+  mitt_show_topic_above_post_stream_enabled:
+    default: true
+    client: true
+  mitt_show_edit_topic_enabled:
+    default: true
+    client: true
+  mitt_show_topic_title_enabled:
+    default: true
+    client: true
+  mitt_show_topic_above_suggested_enabled:
+    default: true
+    client: true
+  mitt_show_topic_admin_menu_buttons_enabled:
+    default: true
+    client: true
+  mitt_show_user_card_metadata_enabled:
+    default: true
+    client: true
+  mitt_show_user_card_post_names_enabled:
+    default: true
+    client: true
+  
+  mitt_show_bread_crumbs_right_enabled:
+    default: true
+    client: true
+  mitt_show_category_custom_settings_enabled:
+    default: true
+    client: true
+  mitt_show_hamburger_admin_enabled:
+    default: true
+    client: true
+  mitt_show_site_map_links_enabled:
+    default: true
+    client: true
+  mitt_show_site_map_links_last_enabled:
+    default: true
+    client: true
+  mitt_show_above_search_enabled:
+    default: true
+    client: true
+  mitt_show_search_category_enabled:
+    default: true
+    client: true
+  mitt_show_topic_category_enabled:
+    default: true
+    client: true
+  mitt_show_user_menu_bottom_enabled:
+    default: true
+    client: true
+  
+  mitt_show_l_topic_list_tags_enabled:
+    default: true
+    client: true
+  
+  mitt_show_ml_topic_list_tags_enabled:
+    default: true
+    client: true
+  
+  mitt_show_create_account_before_password_enabled:
+    default: true
+    client: true
+  mitt_show_post_revisions_enabled:
+    default: true
+    client: true
+  
+  mitt_show_user_custom_controls_enabled:
+    default: true
+    client: true
+  mitt_show_user_custom_preferences_enabled:
+    default: true
+    client: true
+  mitt_show_user_profile_primary_enabled:
+    default: true
+    client: true
+  mitt_show_user_profile_secondary_enabled:
+    default: true
     client: true

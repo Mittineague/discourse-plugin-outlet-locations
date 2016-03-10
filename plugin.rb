@@ -1,67 +1,66 @@
 # name: discourse-plugin-outlet-locations
 # about: show location of plugin-outlets
-# version: 0.2
+# version: 0.3
 # authors: Mittineague
-# url: https://github.com/Mittineague/discourse-plugin-outlet-locations
+# url: https://github.com/Mittineague/discourse-plugin-outlet-locations.git
 
-register_asset "javascripts/admin/templates/connectors/admin-menu/show-admin-menu-location.hbs"
-register_asset "stylesheets/in-admin.scss"
+add_admin_route 'plugin_outlet_locations.title', 'plugin-outlet-locations'
 
-register_asset "javascripts/discourse/templates/connectors/composer-fields/show-composer-fields-location.hbs"
-register_asset "javascripts/discourse/templates/connectors/composer-fields-below/show-composer-fields-below-location.hbs"
-register_asset "javascripts/discourse/templates/connectors/composer-open/show-composer-open-location.hbs"
-register_asset "stylesheets/in-composer.scss"
+after_initialize do
+  Discourse::Application.routes.append do
+    get '/admin/plugins/plugin-outlet-locations' => 'admin/plugins#index', constraints: StaffConstraint.new
+  end
+end  
 
-register_asset "javascripts/discourse/templates/connectors/discovery-list-container-top/show-discovery-list-container-top-location.hbs"
-register_asset "stylesheets/in-discovery.scss"
+enabled_site_setting :mitt_plugin_outlet_locations_enabled
 
-register_asset "javascripts/discourse/templates/modal/connectors/post-revisions/show-post-revisions-location.hbs", :server_side
-register_asset "stylesheets/in-history.scss"
+register_asset "stylesheets/mitt-outlets.scss"
 
-register_asset "javascripts/discourse/templates/connectors/poster-avatar-bottom/show-poster-avatar-bottom-location.hbs"
-register_asset "javascripts/discourse/templates/connectors/topic-after-cooked/show-topic-after-cooked-location.hbs"
-register_asset "stylesheets/in-post.scss"
+register_asset "javascripts/admin/templates/connectors/admin-menu/mitt-show-admin-menu.hbs"
+register_asset "javascripts/admin/templates/connectors/admin-dashboard-top/mitt-show-admin-dashboard-top.hbs"
 
-register_asset "javascripts/discourse/templates/user/connectors/user_custom_preferences/show_user_custom_preferences_location.hbs"
-register_asset "stylesheets/in-preferences.scss"
+register_asset "javascripts/discourse/templates/connectors/composer-open/mitt-show-composer-open.hbs"
+register_asset "javascripts/discourse/templates/connectors/composer-fields/mitt-show-composer-fields.hbs"
+register_asset "javascripts/discourse/templates/connectors/composer-fields-below/mitt-show-composer-fields-below.hbs"
+register_asset "javascripts/discourse/templates/connectors/discovery-list-container-top/mitt-show-discovery-list-container-top.hbs"
+register_asset "javascripts/discourse/templates/connectors/full-page-search-category/mitt-show-full-page-search-category.hbs"
+register_asset "javascripts/discourse/templates/connectors/header-after-home-logo/mitt-show-header-after-home-logo.hbs"
+register_asset "javascripts/discourse/templates/connectors/header-before-notifications/mitt-show-header-before-notifications.hbs"
+register_asset "javascripts/discourse/templates/connectors/header-notifications/mitt-show-header-notifications.hbs"
+register_asset "javascripts/discourse/templates/connectors/header-before-dropdowns/mitt-show-header-before-dropdowns.hbs"
+register_asset "javascripts/discourse/templates/connectors/header-under-content/mitt-show-header-under-content.hbs"
+#register_asset "javascripts/discourse/templates/connectors/poster-avatar-bottom/mitt-show-poster-avatar-bottom.hbs"
+#register_asset "javascripts/discourse/templates/connectors/poster-name-right/mitt-show-poster-name-right.hbs"
+#register_asset "javascripts/discourse/templates/connectors/post-after-cooked/mitt-show-post-after-cooked.hbs"
+#register_asset "javascripts/discourse/templates/connectors/topic-after-cooked/mitt-show-topic-after-cooked.hbs"
+#register_asset "javascripts/discourse/templates/connectors/post-bottom/mitt-show-post-bottom.hbs"
+register_asset "javascripts/discourse/templates/connectors/above-static/mitt-show-above-static.hbs"
+register_asset "javascripts/discourse/templates/connectors/topic-above-post-stream/mitt-show-topic-above-post-stream.hbs"
+register_asset "javascripts/discourse/templates/connectors/edit-topic/mitt-show-edit-topic.hbs"
+register_asset "javascripts/discourse/templates/connectors/topic-title/mitt-show-topic-title.hbs"
+register_asset "javascripts/discourse/templates/connectors/topic-above-suggested/mitt-show-topic-above-suggested.hbs"
+register_asset "javascripts/discourse/templates/connectors/topic-admin-menu-buttons/mitt-show-topic-admin-menu-buttons.hbs"
+register_asset "javascripts/discourse/templates/connectors/user-card-metadata/mitt-show-user-card-metadata.hbs"
+register_asset "javascripts/discourse/templates/connectors/user-card-post-names/mitt-show-user-card-post-names.hbs"
 
-register_asset "javascripts/discourse/templates/connectors/site-map-links/show-site-map-links-location.hbs", :server_side
+register_asset "javascripts/discourse/templates/components/connectors/bread-crumbs-right/mitt-show-bread-crumbs-right.hbs"
+register_asset "javascripts/discourse/templates/components/connectors/category-custom-settings/mitt-show-category-custom-settings.hbs"
+register_asset "javascripts/discourse/templates/components/connectors/hamburger-admin/mitt-show-hamburger-admin.hbs"
+register_asset "javascripts/discourse/templates/components/connectors/site-map-links/mitt-show-site-map-links.hbs"
+register_asset "javascripts/discourse/templates/components/connectors/site-map-links-last/mitt-show-site-map-links-last.hbs"
+register_asset "javascripts/discourse/templates/components/connectors/above-search/mitt-show-above-search.hbs"
+register_asset "javascripts/discourse/templates/components/connectors/search-category/mitt-show-search-category.hbs"
+register_asset "javascripts/discourse/templates/components/connectors/topic-category/mitt-show-topic-category.hbs"
+register_asset "javascripts/discourse/templates/components/connectors/user-menu-bottom/mitt-show-user-menu-bottom.hbs"
 
-register_asset "javascripts/discourse/templates/connectors/above-static/show-above-static-location.hbs"
-register_asset "stylesheets/in-static.scss"
+register_asset "javascripts/discourse/templates/list/connectors/topic-list-tags/mitt-show-topic-list-tags.raw.hbs"
 
-register_asset "javascripts/discourse/templates/connectors/topic-above-post-stream/show-topic-above-post-stream-location.hbs"
-register_asset "javascripts/discourse/templates/connectors/edit-topic/show-edit-topic-location.hbs"
-register_asset "javascripts/discourse/templates/connectors/topic-title/show-topic-title-location.hbs"
-register_asset "javascripts/discourse/templates/connectors/topic-above-suggested/show-topic-above-suggested-location.hbs"
-register_asset "stylesheets/in-topic.scss"
+register_asset "javascripts/discourse/templates/mobile/list/connectors/topic-list-tags/mitt-show-topic-list-tags.raw.hbs"
 
-# todo: figure how w/o hacking client.en.yml
-register_asset "javascripts/discourse/templates/connectors/topic-admin-menu-buttons/show-topic-admin-menu-buttons-location.hbs"
-register_asset "stylesheets/in-topic-admin-menu.scss"
+register_asset "javascripts/discourse/templates/modal/connectors/create-account-before-password/mitt-show-create-account-before-password.hbs"
+register_asset "javascripts/discourse/templates/modal/connectors/post-revisions/mitt-show-post-revisions.hbs"
 
-register_asset "javascripts/discourse/templates/components/connectors/topic-category/show-topic-category-location.hbs"
-register_asset "stylesheets/in-topic-category.scss"
-
-register_asset "javascripts/discourse/templates/user/connectors/user-profile-primary/show-user-profile-primary-location.hbs"
-register_asset "javascripts/discourse/templates/user/connectors/user-profile-secondary/show-user-profile-secondary-location.hbs"
-register_asset "stylesheets/in-user.scss"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+register_asset "javascripts/discourse/templates/user/connectors/user-custom-controls/mitt-show-user-custom-controls.hbs"
+register_asset "javascripts/discourse/templates/user/connectors/user-custom-preferences/mitt-show-user-custom-preferences.hbs"
+register_asset "javascripts/discourse/templates/user/connectors/user-profile-primary/mitt-show-user-profile-primary.hbs"
+register_asset "javascripts/discourse/templates/user/connectors/user-profile-secondary/mitt-show-user-profile-secondary.hbs"

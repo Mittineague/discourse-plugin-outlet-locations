@@ -1,11 +1,13 @@
-# discourse-plugin-outlet-locations
-
 en:
-  admin:
-    site_settings:
-      plugins: "Discourse Plugin Outlet Locations"
-
   js:
-    topic:
-      actions:
-        new_button: "Topic Admin Menu plugin outlet is here"
+    plugin_outlet_locations:
+      title: "Plugin Outlet Locations"
+      show: "Show Purple Tentacle"
+      hide: "Hide Purple Tentacle"
+
+  admin_js:
+    admin:
+      site_settings:
+        categories:
+          mitt_outlets: "Plugin Outlet Locations"
+      

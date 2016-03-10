@@ -1,29 +1,52 @@
-# discourse-plugin-outlet-locations
-
 en:
   site_settings:
-    in_admin_active: "Show Admin plugin-outlet locations"
-    for_admin_only: "Show tab only to Admin"
+    mitt_plugin_outlet_locations_enabled: "Display Plugin Outlet Locations DEVELOPMENT ONLY"
 
-    in_composer_active: "Show Composer plugin-outlet locations"
-
-    in_discovery_active: "Show Discovery plugin-outlet locations"
-
-    in_history_active: "Show History plugin-outlet locations"
-
-    in_post_active: "Show Post plugin-outlet locations"
-
-    in_preferences_active: "Show Preferences plugin-outlet locations"
-
-    in_sitemap_active: "Show Content in Hamburger Menu"
-    in_sitemap_content: "Content to show in Hamburger Menu. Individual items need to be enclosed in LI tags."
-
-    in_static_active: "Show Static plugin outlet positions"
-
-    in_topic_active: "Show Topic plugin outlet positions"
-
-    in_topic_admin_menu_active: "Show Topic Admin Menu"
-
-    in_topic_category_active: "Show Topic Category plugin outlet positions"
-
-    in_user_active: "Show User profile plugin-outlet locations"
+    mitt_show_admin_menu_enabled: "Display admin.hbs location"
+    mitt_show_admin_dashboard_top_enabled: "Display dashboard.hbs location"
+    
+    mitt_show_composer_open_enabled: "Display composer.hbs location"
+    mitt_show_composer_fields_enabled: "Display composer.hbs location"
+    mitt_show_composer_fields_below_enabled: "Display composer.hbs location"
+    mitt_show_discovery_list_container_top_enabled: "Display discovery.hbs location"
+    mitt_show_full_page_search_category_enabled: "Display full-page-search.hbs location"
+    mitt_show_header_after_home_logo_enabled: "Display header.hbs location"
+    mitt_show_header_before_notifications_enabled: "Display header.hbs location"
+    mitt_show_header_notifications_enabled: "Display header.hbs location"
+    mitt_show_header_before_dropdowns_enabled: "Display header.hbs location"
+    mitt_show_header_under_content_enabled: "Display header.hbs location"
+#    mitt_show_poster_avatar_bottom_enabled: "Display post.hbs location"
+#    mitt_show_poster_name_right_enabled: "Display post.hbs location"
+#    mitt_show_post_after_cooked_enabled: "Display post.hbs location"
+#    mitt_show_topic_after_cooked_enabled: "Display post.hbs location"
+#    mitt_show_post_bottom_enabled: "Display post.hbs location"
+    mitt_show_above_static_enabled: "Display static.hbs location"
+    mitt_show_topic_above_post_stream_enabled: "Display topic.hbs location"
+    mitt_show_edit_topic_enabled: "Display topic.hbs location"
+    mitt_show_topic_title_enabled: "Display topic.hbs location"
+    mitt_show_topic_above_suggested_enabled: "Display topic.hbs location"
+    mitt_show_topic_admin_menu_buttons_enabled: "Display topic.hbs location"
+    mitt_show_user_card_metadata_enabled: "Display user-card.hbs location"
+    mitt_show_user_card_post_names_enabled: "Display user-card.hbs location"
+    
+    mitt_show_bread_crumbs_right_enabled: "Display components/bread-crumbs.hbs location"
+    mitt_show_category_custom_settings_enabled: "Display components/edit-category-settings.hbs location"
+    mitt_show_hamburger_admin_enabled: "Display components/hamburger-menu.hbs location"
+    mitt_show_site_map_links_enabled: "Display components/hamburger-menu.hbs location"
+    mitt_show_site_map_links_last_enabled: "Display components/hamburger-menu.hbs location"
+    mitt_show_above_search_enabled: "Display components/search-menu.hbs location"
+    mitt_show_search_category_enabled: "Display components/search-results-topics.hbs location"
+    mitt_show_topic_category_enabled: "Display components/topic-category.hbs location"
+    mitt_show_user_menu_bottom_enabled: "Display components/user-menu.hbs location"
+    
+    mitt_show_l_topic_list_tags_enabled: "Display list/topic-list-item.raw.hbs location (desktop)"
+    
+    mitt_show_ml_topic_list_tags_enabled: "Display mobile/list/topic-list-item.raw.hbs location (mobile)"
+    
+    mitt_show_create_account_before_password_enabled: "Display modal/create-account.hbs location"
+    mitt_show_post_revisions_enabled: "Display modal/history.hbs location"
+    
+    mitt_show_user_custom_controls_enabled: "Display user/preferences.hbs location"
+    mitt_show_user_custom_preferences_enabled: "Display user/preferences.hbs location"
+    mitt_show_user_profile_primary_enabled: "Display user/user.hbs location"
+    mitt_show_user_profile_secondary_enabled: "Display user/user.hbs location"
