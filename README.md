@@ -33,7 +33,7 @@ yml files are **very sensitive** to correct indentation or the **entire app will
 
 If you are developing your own plugin, please note:  
 Although not necessary, having Admin Settings toggles are a courtesy to others so they won't need to uninstall the plugin to deactivate it.  
-To have a link to a plugins "home" page in the Admin Plugins there must be a url: comment in the plugin.rb file.
+To have a link to a plugins "home" page in the Admin Plugins there must be a url: comment in the plugin.rb file.  
 Giving template files the hbs extension, (and JavaScript files the es6 extension), allow Discourse to do "magic"
 
 ## Installation
