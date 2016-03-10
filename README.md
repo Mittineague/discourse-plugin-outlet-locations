@@ -7,8 +7,8 @@ The older version of this plugin can be found in the version-02 branch. It is th
 
 ## Some of what has Changed
 
-consistent styling - Because the number of plugin-outlets has increased significantly, to reduce complexity all templates now display with similar CSS styling. 
-prefixes - Now that the number of plugins has increased, "mitt-" and "mitt_" prefixes have been added to help reduce the chance of possible naming conflicts. 
+consistent styling - Because the number of plugin-outlets has increased significantly, to reduce complexity all templates now display with similar CSS styling.  
+prefixes - Now that the number of plugins has increased, "mitt-" and "mitt_" prefixes have been added to help reduce the chance of possible naming conflicts.  
 tests - Not complete, but included as a working example of [Beginner’s Guide to Creating Discourse Plugins Part 6: Acceptance Tests](https://meta.discourse.org/t/beginner-s-guide-to-creating-discourse-plugins-part-6-acceptance-tests/32619?u=mittineague)
 
 ## Use - _NOTE_ this plugin is intended for DEVELOPMENT USE ONLY
