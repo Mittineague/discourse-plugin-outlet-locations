@@ -4,10 +4,66 @@ en:
       title: "Plugin Outlet Locations"
       show: "Show Purple Tentacle"
       hide: "Hide Purple Tentacle"
+      first_para_dpol: "This page has nothing to do with this plugin for now.<br>Eventually I hope to move this plugin's settings here."
+      second_para_dpol: "At present it's only here to provide a working example of <br><a href='https://meta.discourse.org/t/beginners-guide-to-creating-discourse-plugins-part-5-admin-interfaces/31761'>Beginner's Guide to Creating Discourse Plugins Part 5: Admin Interfaces</a>"
+
+    mitt_dpol:
+      admin_menu_dpol: "admin-menu plugin outlet"
+      admin_dashboard_top_dpol: "admin-dashboard-top plugin outlet"
+
+      composer_open_dpol: "composer-open plugin outlet"
+      composer_fields_dpol: "composer-fields plugin outlet"
+      composer_fields_below_dpol: "composer-fields-below plugin outlet"
+      discovery_list_container_top_dpol: "discovery-list-container-top plugin outlet"
+      discovery_below_dpol: "discovery-below plugin outlet"
+      full_page_search_category_dpol: "full-page-search-category plugin outlet"
+      header_after_home_logo_dpol: "header-after-home-logo plugin outlet"
+      header_before_notifications_dpol: "header-before-notifications plugin outlet"
+      header_notifications_dpol: "header-notifications plugin outlet"
+      header_before_dropdowns_dpol: "header-before-dropdowns plugin outlet"
+      header_under_content_dpol: "header-under-content plugin outlet"
+#      poster_avatar_bottom_dpol: "poster-avatar-bottom plugin outlet"
+#      poster_name_right_dpol: "poster-name-right plugin outlet"
+#      post_after_cooked_dpol: "post-after-cooked plugin outlet"
+#      topic_after_cooked_dpol: "topic-after-cooked plugin outlet"
+#      post_bottom_dpol: "post-bottom plugin outlet"
+      above_static_dpol: "above-static plugin outlet"
+      topic_above_post_stream_dpol: "topic-above-post-stream plugin outlet"
+      edit_topic_dpol: "edit-topic plugin outlet"
+      topic_title_dpol: "topic-title plugin outlet"
+      topic_above_suggested_dpol: "topic-above-suggested plugin outlet"
+      topic_admin_menu_buttons_dpol: "topic-admin-menu-buttons plugin outlet"
+      user_card_post_names_dpol: "user-card-post-names plugin outlet"
+      user_card_metadata_dpol: "user-card-metadata plugin outlet"
+
+      bread_crumbs_right_dpol: "bread-crumbs-right plugin outlet"
+      category_custom_settings_dpol: "category-custom-settings plugin outlet"
+      hamburger_admin_dpol: "hamburger-admin plugin outlet"
+      site_map_links_dpol: "site-map-links plugin outlet"
+      site_map_links_last_dpol: "site-map-links-last plugin outlet"
+      above_search_dpol: "above-search plugin outlet"
+      search_category_dpol: "search-category plugin outlet"
+      topic_category_dpol: "topic-category plugin outlet"
+      user_menu_bottom_dpol: "user-menu-bottom plugin outlet"
+
+      l_topic_list_tags_dpol: "topic-list-tags plugin outlet"
+
+      ml_topic_list_tags_dpol: "topic-list-tags plugin Outlet"
+
+      create_account_before_password_dpol: "create-account-before-password plugin outlet"
+      post_revisions_dpol: "post-revisions plugin outlet"
+
+      user_activity_bottom_dpol: "user-activity-bottom plugin outlet"
+      user_custom_preferences_dpol: "user-custom-preferences plugin outlet"
+      user_custom_controls_dpol: "user-custom-controls plugin outlet"
+      user_profile_primary_dpol: "user-profile-primary plugin outlet"
+      user_profile_secondary_dpol: "user-profile-secondary plugin outlet"
 
   admin_js:
     admin:
       site_settings:
         categories:
           mitt_outlets: "Plugin Outlet Locations"
+
+
       

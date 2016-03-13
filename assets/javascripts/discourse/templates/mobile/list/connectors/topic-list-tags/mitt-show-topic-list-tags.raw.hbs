@@ -1,10 +1,14 @@
 {{#if context.site.mobileView}}
-  {{#if context.siteSettings.mitt_plugin_outlet_locations_enabled}}
-    {{#if context.siteSettings.mitt_show_ml_topic_list_tags_enabled}}
-<div class="mitt-outlet-location">
-<i class="fa fa-plug"></i>
-topic-list-tags plugin outlet
-</div>
+    {{#if context.siteSettings.mitt_plugin_outlet_locations_enabled}}
+        {{#if context.siteSettings.mitt_show_ml_topic_list_tags_enabled}}
+            <div class="mitt-outlet-location">
+                <i class="fa fa-plug"></i>
+                {{i18n "mitt_dpol.ml_topic_list_tags_dpol"}}
+            </div>
+        {{/if}}
     {{/if}}
-  {{/if}}
+{{/if}}
+{{#if context.topic}}
+{{/if}}
+{{#if context.topic.details}}
 {{/if}}
