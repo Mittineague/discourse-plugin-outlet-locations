@@ -25,6 +25,8 @@
 #user-card .mitt-show-user-card-metadata i:before {
   color: #030;
 }
-.mitt-show-user-profile-primary .mitt-outlet-location {
+.mitt-show-user-profile-primary .mitt-outlet-location,
+.mitt-show-user-profile-public-fields .mitt-outlet-location,
+.mitt-show-user-profile-controls .mitt-outlet-location {
   background-color: rgba(140, 220, 140, 1);
 }

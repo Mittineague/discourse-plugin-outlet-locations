@@ -44,21 +44,6 @@ mitt_outlets:
   mitt_show_header_under_content_enabled:
     default: true
     client: true
-#  mitt_show_poster_avatar_bottom_enabled:
-#    default: true
-#    client: true
-#  mitt_show_poster_name_right_enabled:
-#    default: true
-#    client: true
-#  mitt_show_post_after_cooked_enabled:
-#    default: true
-#    client: true
-#  mitt_show_topic_after_cooked_enabled:
-#    default: true
-#    client: true
-#  mitt_show_post_bottom_enabled:
-#    default: true
-#    client: true
   mitt_show_above_static_enabled:
     default: true
     client: true
@@ -134,6 +119,12 @@ mitt_outlets:
     default: true
     client: true
   mitt_show_user_custom_preferences_enabled:
+    default: true
+    client: true
+  mitt_show_user_profile_controls_enabled:
+    default: true
+    client: true
+  mitt_show_user_profile_public_fields_enabled:
     default: true
     client: true
   mitt_show_user_profile_primary_enabled:
