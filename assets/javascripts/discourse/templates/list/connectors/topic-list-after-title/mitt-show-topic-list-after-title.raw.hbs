@@ -1,0 +1,10 @@
+{{#unless context.site.mobileView}}
+    {{#if context.siteSettings.mitt_plugin_outlet_locations_enabled}}
+        {{#if context.siteSettings.mitt_show_l_topic_list_after_title_enabled}}
+            <div class="mitt-outlet-location">
+                <i class="fa fa-plug"></i>
+                {{i18n "mitt_dpol.l_topic_list_after_title_dpol"}}
+            </div>
+        {{/if}}
+    {{/if}}
+{{/unless}}

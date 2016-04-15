@@ -5,6 +5,8 @@ en:
     mitt_show_admin_menu_enabled: "Display admin.hbs location"
     mitt_show_admin_dashboard_top_enabled: "Display dashboard.hbs location"
     
+    mitt_show_above_footer_enabled: "Display application.hbs location"
+    mitt_show_below_footer_enabled: "Display application.hbs location"
     mitt_show_composer_open_enabled: "Display composer.hbs location"
     mitt_show_composer_fields_enabled: "Display composer.hbs location"
     mitt_show_composer_fields_below_enabled: "Display composer.hbs location"
@@ -20,11 +22,12 @@ en:
     mitt_show_topic_above_post_stream_enabled: "Display topic.hbs location"
     mitt_show_edit_topic_enabled: "Display topic.hbs location"
     mitt_show_topic_title_enabled: "Display topic.hbs location"
+    mitt_show_topic_above_posts_enabled: "Display topic.hbs location"
     mitt_show_topic_above_suggested_enabled: "Display topic.hbs location"
     mitt_show_topic_admin_menu_buttons_enabled: "Display topic.hbs location"
     mitt_show_user_card_metadata_enabled: "Display user-card.hbs location"
     mitt_show_user_card_post_names_enabled: "Display user-card.hbs location"
-    
+
     mitt_show_bread_crumbs_right_enabled: "Display components/bread-crumbs.hbs location"
     mitt_show_category_custom_settings_enabled: "Display components/edit-category-settings.hbs location"
     mitt_show_hamburger_admin_enabled: "Display components/hamburger-menu.hbs location"
@@ -32,10 +35,12 @@ en:
     mitt_show_site_map_links_last_enabled: "Display components/hamburger-menu.hbs location"
     mitt_show_above_search_enabled: "Display components/search-menu.hbs location"
     mitt_show_search_category_enabled: "Display components/search-results-topics.hbs location"
+    mitt_show_user_stream_item_header_enabled: "Display components/stream-item.hbs location"
     mitt_show_topic_category_enabled: "Display components/topic-category.hbs location"
     mitt_show_user_menu_bottom_enabled: "Display components/user-menu.hbs location"
-    
+
     mitt_show_l_topic_list_tags_enabled: "Display list/topic-list-item.raw.hbs location (desktop)"
+    mitt_show_l_topic_list_after_title_enabled: "Display list/topic-list-item.raw.hbs location (desktop)"
     
     mitt_show_ml_topic_list_tags_enabled: "Display mobile/list/topic-list-item.raw.hbs location (mobile)"
     

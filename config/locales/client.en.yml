@@ -11,6 +11,8 @@ en:
       admin_menu_dpol: "admin-menu plugin outlet"
       admin_dashboard_top_dpol: "admin-dashboard-top plugin outlet"
 
+      above_footer_dpol: "above-footer plugin outlet"
+      below_footer_dpol: "below-footer plugin outlet"
       composer_open_dpol: "composer-open plugin outlet"
       composer_fields_dpol: "composer-fields plugin outlet"
       composer_fields_below_dpol: "composer-fields-below plugin outlet"
@@ -26,6 +28,7 @@ en:
       topic_above_post_stream_dpol: "topic-above-post-stream plugin outlet"
       edit_topic_dpol: "edit-topic plugin outlet"
       topic_title_dpol: "topic-title plugin outlet"
+      topic_above_posts_dpol: "topic-above-posts plugin outlet"
       topic_above_suggested_dpol: "topic-above-suggested plugin outlet"
       topic_admin_menu_buttons_dpol: "topic-admin-menu-buttons plugin outlet"
       user_card_post_names_dpol: "user-card-post-names plugin outlet"
@@ -38,12 +41,14 @@ en:
       site_map_links_last_dpol: "site-map-links-last plugin outlet"
       above_search_dpol: "above-search plugin outlet"
       search_category_dpol: "search-category plugin outlet"
+      user_stream_item_header_dpol: "user-stream-item-header plugin outlet"
       topic_category_dpol: "topic-category plugin outlet"
       user_menu_bottom_dpol: "user-menu-bottom plugin outlet"
 
       l_topic_list_tags_dpol: "topic-list-tags plugin outlet"
+      l_topic_list_after_title_dpol: "topic-list-after-title plugin outlet"
 
-      ml_topic_list_tags_dpol: "topic-list-tags plugin Outlet"
+      ml_topic_list_tags_dpol: "topic-list-tags plugin outlet"
 
       create_account_before_password_dpol: "create-account-before-password plugin outlet"
       post_revisions_dpol: "post-revisions plugin outlet"
@@ -61,6 +66,3 @@ en:
       site_settings:
         categories:
           mitt_outlets: "Plugin Outlet Locations"
-
-
-      
