@@ -35,21 +35,21 @@ mitt_outlets:
   mitt_show_full_page_search_category_enabled:
     default: true
     client: true
-  mitt_show_header_after_home_logo_enabled:
-    default: true
-    client: true
-  mitt_show_header_before_notifications_enabled:
-    default: true
-    client: true
-  mitt_show_header_notifications_enabled:
-    default: true
-    client: true
-  mitt_show_header_before_dropdowns_enabled:
-    default: true
-    client: true
-  mitt_show_header_under_content_enabled:
-    default: true
-    client: true
+#   mitt_show_header_after_home_logo_enabled:
+#     default: true
+#     client: true
+#   mitt_show_header_before_notifications_enabled:
+#     default: true
+#     client: true
+#   mitt_show_header_notifications_enabled:
+#     default: true
+#     client: true
+#   mitt_show_header_before_dropdowns_enabled:
+#     default: true
+#     client: true
+#   mitt_show_header_under_content_enabled:
+#     default: true
+#     client: true
   mitt_show_above_static_enabled:
     default: true
     client: true
@@ -84,30 +84,30 @@ mitt_outlets:
   mitt_show_category_custom_settings_enabled:
     default: true
     client: true
-  mitt_show_hamburger_admin_enabled:
-    default: true
-    client: true
-  mitt_show_site_map_links_enabled:
-    default: true
-    client: true
-  mitt_show_site_map_links_last_enabled:
-    default: true
-    client: true
-  mitt_show_above_search_enabled:
-    default: true
-    client: true
-  mitt_show_search_category_enabled:
-    default: true
-    client: true
+#   mitt_show_hamburger_admin_enabled:
+#     default: true
+#     client: true
+#   mitt_show_site_map_links_enabled:
+#     default: true
+#     client: true
+#   mitt_show_site_map_links_last_enabled:
+#     default: true
+#     client: true
+#   mitt_show_above_search_enabled:
+#     default: true
+#     client: true
+#   mitt_show_search_category_enabled:
+#     default: true
+#     client: true
   mitt_show_user_stream_item_header_enabled:
     default: true
     client: true
   mitt_show_topic_category_enabled:
     default: true
     client: true
-  mitt_show_user_menu_bottom_enabled:
-    default: true
-    client: true
+#   mitt_show_user_menu_bottom_enabled:
+#     default: true
+#     client: true
 
   mitt_show_l_topic_list_tags_enabled:
     default: true
