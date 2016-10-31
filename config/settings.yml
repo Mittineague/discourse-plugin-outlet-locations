@@ -11,6 +11,12 @@ mitt_outlets:
     default: true
     client: true
   
+  mitt_show_above_site_header_enabled:
+    default: true
+    client: true
+  mitt_show_below_site_header_enabled:
+    default: true
+    client: true
   mitt_show_above_footer_enabled:
     default: true
     client: true

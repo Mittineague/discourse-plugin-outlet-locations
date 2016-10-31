@@ -19,6 +19,8 @@ register_asset "stylesheets/mitt-outlets.scss"
 register_asset "javascripts/admin/templates/connectors/admin-menu/mitt-show-admin-menu.hbs"
 register_asset "javascripts/admin/templates/connectors/admin-dashboard-top/mitt-show-admin-dashboard-top.hbs"
 
+register_asset "javascripts/discourse/templates/connectors/above-site-header/mitt-show-above-site-header.hbs"
+register_asset "javascripts/discourse/templates/connectors/below-site-header/mitt-show-below-site-header.hbs"
 register_asset "javascripts/discourse/templates/connectors/above-footer/mitt-show-above-footer.hbs"
 register_asset "javascripts/discourse/templates/connectors/below-footer/mitt-show-below-footer.hbs"
 register_asset "javascripts/discourse/templates/connectors/composer-open/mitt-show-composer-open.hbs"

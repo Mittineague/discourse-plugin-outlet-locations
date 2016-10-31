@@ -11,6 +11,8 @@ en:
       admin_menu_dpol: "admin-menu plugin outlet"
       admin_dashboard_top_dpol: "admin-dashboard-top plugin outlet"
 
+      above_site_header_dpol: "above-site-header plugin outlet"
+      below_site_header_dpol: "below-site-header plugin outlet"
       above_footer_dpol: "above-footer plugin outlet"
       below_footer_dpol: "below-footer plugin outlet"
       composer_open_dpol: "composer-open plugin outlet"

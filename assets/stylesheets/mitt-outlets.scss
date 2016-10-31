@@ -8,6 +8,8 @@
   color: #030;
   font-weight: bold;
   font-size:  0.9em;
+  position: relative;
+  z-index: 10000;
 }
 /*
 .mitt-show-header-notifications .mitt-outlet-location i:before,

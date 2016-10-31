@@ -5,6 +5,8 @@ en:
     mitt_show_admin_menu_enabled: "Display admin.hbs location"
     mitt_show_admin_dashboard_top_enabled: "Display dashboard.hbs location"
     
+    mitt_show_above_site_header_enabled: "Display application.hbs location"
+    mitt_show_below_site_header_enabled: "Display application.hbs location"
     mitt_show_above_footer_enabled: "Display application.hbs location"
     mitt_show_below_footer_enabled: "Display application.hbs location"
     mitt_show_composer_open_enabled: "Display composer.hbs location"
